@@ -1,6 +1,6 @@
 # About-AngularJS
 
-## AngularJS Directives
+## :green_heart:AngularJS Directives
 | Directive        | Description                                                                                                       |
 |------------------|-------------------------------------------------------------------------------------------------------------------|
 | ng-app           | Defines the root element of an application.                                                                       |
@@ -24,7 +24,7 @@
 | ng-focus         | Specifies a behavior on focus events.                                                                             |
 | ng-form          | Specifies an HTML form to inherit controls from.                                                                  |
 | ng-hide          | Hides or shows HTML elements.                                                                                     |
-| ng-href          | Specifies a url for the /<a> element.                                                                             |
+| ng-href          | Specifies a url for the \<a> element.                                                                             |
 | ng-if            | Removes the HTML element if a condition is false.                                                                 |
 | ng-include       | Includes HTML in an application.                                                                                  |
 | ng-init          | Defines initial values for an application.                                                                        |
@@ -45,7 +45,7 @@
 | ng-mouseup       | Specifies a behavior on mouseup events.                                                                           |
 | ng-non-bindable  | Specifies that no data binding can happen in this element, or its children.                                       |
 | ng-open          | Specifies the open attribute of an element.                                                                       |
-| ng-options       | Specifies /<options> in a /<select> list.                                                                         |
+| ng-options       | Specifies \<options> in a \<select> list.                                                                         |
 | ng-paste         | Specifies a behavior on paste events.                                                                             |
 | ng-pluralize     | Specifies a message to display according to en-us localization rules.                                             |
 | ng-readonly      | Specifies the readonly attribute of an element.                                                                   |
@@ -53,8 +53,8 @@
 | ng-required      | Specifies the required attribute of an element.                                                                   |
 | ng-selected      | Specifies the selected attribute of an element.                                                                   |
 | ng-show          | Shows or hides HTML elements.                                                                                     |
-| ng-src           | Specifies the src attribute for the /<img> element.                                                               |
-| ng-srcset        | Specifies the srcset attribute for the /<img> element.                                                            |
+| ng-src           | Specifies the src attribute for the \<img> element.                                                               |
+| ng-srcset        | Specifies the srcset attribute for the \<img> element.                                                            |
 | ng-style         | Specifies the style attribute for an element.                                                                     |
 | ng-submit        | Specifies expressions to run on onsubmit events.                                                                  |
 | ng-switch        | Specifies a condition that will be used to show/hide child elements.                                              |
