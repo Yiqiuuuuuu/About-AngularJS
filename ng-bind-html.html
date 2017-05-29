@@ -1,0 +1,38 @@
+<!--
+Syntax:
+<element ng-bind-html="expression"></element>
+
+"expression" --- specifies a variable, or an expression to evaluate
+-->
+
+<!--
+The ng-bind-html directive is a secure way of binding content to an HTML element.
+
+When you are letting AngularJS write HTML in your application, you should check the HTML for dangerous code. By including the "angular-sanitize.js" module in your application you can do so by running the HTML code through the ngSanitize function.
+-->
+
+
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-sanitize.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+<p ng-bind-html="myText"></p>
+
+</div>
+
+<script>
+var app = angular.module("myApp", ['ngSanitize']);
+app.controller("myCtrl", function($scope) {
+    $scope.myText = "My name is: <h1>John Doe</h1>";
+});
+</script>
+
+<p><b>Note:</b> This example includes the "angular-sanitize.js",
+which has functions for removing potentially dangerous tokens from the HTML.</p>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!--
+Syntax:
+    <element ng-app="modulename">
+    ...
+    content inside the ng-app root element can contain AngularJS code
+    ...
+    </element>
+The "modulename" is	OPTIONAL --- specifies the name of a module to load with the application
+-->
+
+<!--The ng-app directive tells AngularJS that this is the root element of the AngularJS application.-->
+
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+{{ firstName + " " + lastName }}
+</div>
+
+<script>
+var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope) {
+    $scope.firstName = "John";
+    $scope.lastName = "Doe";
+});
+</script>
+
+</body>
+</html>
+
+
+
+
+
