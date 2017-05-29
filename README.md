@@ -61,7 +61,7 @@
 | ng-transclude      | Specifies a point to insert transcluded elements.                                                                 |
 | ng-value           | Specifies the value of an input element.                                                                          |
 
-## AngularJS Directives on HTML Elements
+## :green_heart:AngularJS Directives on HTML Elements
 | Element  | Description                                                    |
 |----------|----------------------------------------------------------------|
 | a        | AngularJS modifies the \<a> element's default behaviors.        |
@@ -71,7 +71,7 @@
 | select   | AngularJS modifies the \<select> element's default behaviors.   |
 | textarea | AngularJS modifies the \<textarea> element's default behaviors. |
 
-## AngularJS Filters
+## :green_heart:AngularJS Filters
 | Filter    | Description                                                                   |
 |-----------|-------------------------------------------------------------------------------|
 | currency  | Format a number to a currency format.                                         |
@@ -84,7 +84,7 @@
 | orderBy   | Orders an array by an expression.                                             |
 | uppercase | Format a string to upper case.                                                |
 
-## AngularJS Global API
+## :green_heart:AngularJS Global API
 
 ### Converting
 | API                 | Description                                                |
@@ -121,7 +121,7 @@
 | angular.element()   | Wraps an HTML element as an jQuery element           |
 | angular.module()    | Creates, registers, or retrieves an AngularJS module |
 
-## AngularJS Validation Properties
+## :green_heart:AngularJS Validation Properties
 * dirty
 * invalid
 * error
