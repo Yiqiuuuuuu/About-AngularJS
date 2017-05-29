@@ -60,3 +60,68 @@
 | ng-switch          | Specifies a condition that will be used to show/hide child elements.                                              |
 | ng-transclude      | Specifies a point to insert transcluded elements.                                                                 |
 | ng-value           | Specifies the value of an input element.                                                                          |
+
+## AngularJS Directives on HTML Elements
+| Element  | Description                                                    |
+|----------|----------------------------------------------------------------|
+| a        | AngularJS modifies the \<a> element's default behaviors.        |
+| form     | AngularJS modifies the \<form> element's default behaviors.     |
+| input    | AngularJS modifies the \<input> element's default behaviors.    |
+| script   | AngularJS modifies the \<script> element's default behaviors.   |
+| select   | AngularJS modifies the \<select> element's default behaviors.   |
+| textarea | AngularJS modifies the \<textarea> element's default behaviors. |
+
+## AngularJS Filters
+| Filter    | Description                                                                   |
+|-----------|-------------------------------------------------------------------------------|
+| currency  | Format a number to a currency format.                                         |
+| date      | Format a date to a specified format.                                          |
+| filter    | Select a subset of items from an array.                                       |
+| json      | Format an object to a JSON string.                                            |
+| limitTo   | Limits an array, or a string, into a specified number of elements/characters. |
+| lowercase | Format a string to lower case.                                                |
+| number    | Format a number to a string.                                                  |
+| orderBy   | Orders an array by an expression.                                             |
+| uppercase | Format a string to upper case.                                                |
+
+## AngularJS Global API
+
+### Converting
+| API                 | Description                                                |
+|---------------------|------------------------------------------------------------|
+| angular.lowercase() | Converts a string to lowercase                             |
+| angular.uppercase() | Converts a string to uppercase                             |
+| angular.copy()      | Creates a deep copy of an object or an array               |
+| angular.forEach()   | Executes a function for each element in an object or array |
+
+### Comparing
+| API                   | Description                                    |
+|-----------------------|------------------------------------------------|
+| angular.isArray()     | Returns true if the reference is an array      |
+| angular.isDate()      | Returns true if the reference is a date        |
+| angular.isDefined()   | Returns true if the reference is defined       |
+| angular.isElement()   | Returns true if the reference is a DOM element |
+| angular.isFunction()  | Returns true if the reference is a function    |
+| angular.isNumber()    | Returns true if the reference is a number      |
+| angular.isObject()    | Returns true if the reference is an object     |
+| angular.isString()    | Returns true if the reference is a string      |
+| angular.isUndefined() | Returns true if the reference is undefined     |
+| angular.equals()      | Returns true if two references are equal       |
+
+### JSON
+| API                | Description                                          |
+|--------------------|------------------------------------------------------|
+| angular.fromJson() | Takes a JSON string and returns an JavaScript object |
+| angular.toJson()   | Takes a JavaScript object and returns a JSON string  |
+
+### Basic
+| API                 | Description                                          |
+|---------------------|------------------------------------------------------|
+| angular.bootstrap() | Starts AngularJS manually                            |
+| angular.element()   | Wraps an HTML element as an jQuery element           |
+| angular.module()    | Creates, registers, or retrieves an AngularJS module |
+
+## AngularJS Validation Properties
+* dirty
+* invalid
+* error
